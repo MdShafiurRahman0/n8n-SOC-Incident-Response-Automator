@@ -99,5 +99,3 @@ You should receive a Slack message with buttons. Clicking "Approve" will trigger
 * GitHub: [@MdShafiurRahman0](https://github.com/MdShafiurRahman0)
 * Email: shafiur.rahman.shadat@gmail.com
 ```
-
-**সংক্ষিপ্ত ব্যাখ্যা:** এই প্রজেক্টে n8n-এ দুটি ওয়েবহুক ব্যবহার করা হয়েছে। প্রথমটি Wazuh থেকে অ্যালার্ট রিসিভ করে স্ল্যাকে মেসেজ এবং বাটন পাঠায়। দ্বিতীয় ওয়েবহুকটি স্ল্যাকের বাটন ক্লিকের রেসপন্স রিসিভ করে। এরপর IF কন্ডিশন চেক করে যে ইউজার "Approve" চাপলে তবেই Jira-তে টিকিট ক্রিয়েট হয়, অন্যথায় তা বাতিল হয়ে যায়।
